@@ -1,0 +1,8 @@
+fr.epita.quiz.datamodel
+fr.epita.quiz.launcher
+fr.epita.quiz.launcher.admin
+fr.epita.quiz.launcher.admin.menus
+fr.epita.quiz.launcher.student
+fr.epita.quiz.launcher.student.menus
+fr.epita.quiz.services
+fr.epita.quiz.services.data.dao
