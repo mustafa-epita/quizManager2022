@@ -9,19 +9,19 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library>
-        <CLASSES />
-        <JAVADOC>
-          <root url="jar://$MODULE_DIR$/javadocs/javadocs.jar!/" />
-        </JAVADOC>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/postgresql-42.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library" exported="">
       <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/postgresql-42.4.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/javadocs/javadocs.jar!/" />
+        </JAVADOC>
         <SOURCES />
       </library>
     </orderEntry>

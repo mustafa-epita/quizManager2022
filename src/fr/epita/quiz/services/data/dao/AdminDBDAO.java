@@ -1,6 +1,7 @@
 package fr.epita.quiz.services.data.dao;
 
 import fr.epita.quiz.datamodel.Admin;
+import fr.epita.quiz.services.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -113,6 +114,7 @@ public class AdminDBDAO {
     }
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/quiz-manager", "faris", "");
+        DBConnection dbConnection = new DBConnection();
+        return dbConnection.GetDBConnection();
     }
 }

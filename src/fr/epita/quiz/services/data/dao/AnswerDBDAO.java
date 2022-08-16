@@ -4,6 +4,7 @@ import fr.epita.quiz.datamodel.Answer;
 import fr.epita.quiz.datamodel.MCQAnswer;
 import fr.epita.quiz.datamodel.Quiz;
 import fr.epita.quiz.datamodel.Student;
+import fr.epita.quiz.services.DBConnection;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -143,6 +144,7 @@ public class AnswerDBDAO {
 
 
     private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/quiz-manager", "faris", "");
+        DBConnection dbConnection = new DBConnection();
+        return dbConnection.GetDBConnection();
     }
 }
